@@ -21,6 +21,7 @@ source env.sh
 4. Install requiremnts
 ```
 pip install -r requirements.txt
+npm install 
 ```
 
 5. Run

@@ -1,0 +1,26 @@
+{
+  "name": "tech-dict",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify static/index.js > static/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericagreeene/tech-dict.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ericagreeene/tech-dict/issues"
+  },
+  "homepage": "https://github.com/ericagreeene/tech-dict#readme",
+  "devDependencies": {
+    "browserify": "^16.3.0"
+  },
+  "dependencies": {
+    "xhr": "^2.5.0"
+  }
+}

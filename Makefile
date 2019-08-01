@@ -1,4 +1,5 @@
 run:
+	npm run build
 	python -m flask run
 
 test:
